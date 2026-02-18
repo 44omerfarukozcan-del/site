@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hakkımda | Ömer Faruk Özcan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --bg: #0d1117; --card: #161b22; --accent: #e94560; --text: #c9d1d9; }
+        body { font-family: sans-serif; background: var(--bg); color: var(--text); margin: 0; }
+        nav { position: fixed; top: 0; width: 100%; height: 70px; background: rgba(13,17,23,0.95); display: flex; align-items: center; justify-content: center; gap: 30px; border-bottom: 1px solid #333; z-index: 1000; }
+        nav a { color: #8b949e; text-decoration: none; font-weight: bold; }
+        
+        .container { max-width: 1000px; margin: 120px auto; padding: 20px; }
+        .hero-section { text-align: center; margin-bottom: 60px; }
+        .hero-section h1 { font-size: 3rem; color: #fff; margin-bottom: 10px; }
+        
+        .content-block { background: var(--card); border-radius: 20px; padding: 40px; border: 1px solid #30363d; margin-bottom: 30px; line-height: 1.8; }
+        .content-block h2 { color: var(--accent); border-bottom: 2px solid #30363d; padding-bottom: 10px; margin-top: 0; }
+        
+        .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 20px; }
+        .stat-item { background: #0d1117; padding: 20px; border-radius: 10px; text-align: center; border: 1px solid #333; }
+        .stat-item i { font-size: 2rem; color: #f1c40f; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/">ANA SAYFA</a> <a href="/dersler">NOTLARIM</a> <a href="/hakkimda" style="color:white;">HAKKIMDA</a> <a href="/iletisim">İLETİŞİM</a>
+    </nav>
+
+    <div class="container">
+        <div class="hero-section">
+            <h1>Ömer Faruk Özcan</h1>
+            <p>Geleceğin Yazılım Mühendisi & Teknoloji Tutkunu</p>
+        </div>
+
+        <div class="content-block">
+            <h2>👨‍💻 Akademik Yolculuk</h2>
+            <p>Samsun'da Yazılım Geliştirme 1. sınıf öğrencisi olarak backend dünyasına adım attım. Şu anki odak noktam Python ve Flask ile dinamik yapılar kurmak. Ancak vizyonum bununla sınırlı değil; <strong>DGS 2027</strong> sınavına hazırlanarak Yazılım Mühendisliği lisans derecesine geçiş yapmayı ve profesyonel kariyerimi en üst seviyeye taşımayı hedefliyorum.</p>
+        </div>
+
+        <div class="content-block">
+            <h2>🛠️ Donanım & Yaratıcılık</h2>
+            <p>Sadece kod yazmıyorum, teknolojinin kalbine dokunmayı seviyorum. <strong>Casper Excalibur G915</strong> laptopum ana çalışma istasyonum. Boş zamanlarımda ise eski cihazları, özellikle de iPhone 7'yi parçalarına ayırarak onları şık bir çerçeve içinde sanata dönüştürüyorum (Teardown Art). Bu tutku, karmaşık sistemlerin nasıl çalıştığını anlama merakımdan geliyor.</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item"><i class="fas fa-eagle"></i><h3>Beşiktaş</h3><p>Siyah-Beyaz Aşk</p></div>
+            <div class="stat-item"><i class="fas fa-map-marker-alt"></i><h3>Samsun</h3><p>Karadeniz'in Kalbi</p></div>
+            <div class="stat-item"><i class="fas fa-code-branch"></i><h3>Backend</h3><p>Sistem Mimarı</p></div>
+        </div>
+    </div>
+</body>
+</html>
